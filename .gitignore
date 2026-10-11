@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local secrets and dependencies
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Generated frontend build
+/frontend/dist/
+
+# This repository is the standalone Firebase POS, not the removed Android/API apps
+/app/
+/backend/
+/gradle/
+/build.gradle.kts
+/settings.gradle.kts
+/gradle.properties
+/gradlew
+/gradlew.bat
+/.kotlin/
